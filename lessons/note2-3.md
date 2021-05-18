@@ -33,7 +33,7 @@ c = a ** b # 81
 c = a // b # 2
 
 # 内置函数pow(a, n)也能进行幂运算
-pow(2, 3) # 等价与 2**3 结果为8
+pow(2, 3) # 等价于 2**3 结果为8
 ```
 ### 赋值运算符
 赋值就是把`=`右边的数值/计算结果赋给左边的变量，如：`a = 3 + 2`。
@@ -107,12 +107,16 @@ c = a != b # 变量c为: True
 
 # 运算结果可以存入变量,在使用
 bigger = a > b # True
-if (bigger) 
+if bigger: 
   print('a is bigger')
+else:
+  print('a is smaller')
 
 # 运算结果可以直接使用
-if ( a > b ) 
+if a > b: 
   print('a is bigger')
+else:
+  print('b is bigger')
 
 a < b # False
 a >= b # True
@@ -122,3 +126,7 @@ a <= b # False
 a < b + 20 # True
 a * 2 > b * 3 # True
 ```
+
+## 练习
+1. 编写一个程序，可以让用户输入哥哥和弟弟的年龄，然后告诉用户哥哥的年龄是否大于或等于弟弟年龄的2倍
+

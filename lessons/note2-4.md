@@ -29,7 +29,7 @@
   主要用于逻辑判断
   '''
   color = input('please input a color: ')
-  if (color == 'blue'):
+  if color == 'blue':
       print('I like it')
   else:
       print('I do not like it')

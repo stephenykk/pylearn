@@ -62,7 +62,7 @@ else:
 a = int(input('请输入一个正整数：'))
 if a > 3:
   print('a > 3')
-  print('你输入的是', a)
+  print('你输入的是' + str(a))
 else:
   print('a < 3')
 
@@ -88,7 +88,7 @@ else:
 sex = input('请输入你的性别(男/女):')
 age = int(input('请输入你的年龄(1-120):'))
 
-if sex == '男'
+if sex == '男':
 
     if age >= 18:
         print('帅哥')

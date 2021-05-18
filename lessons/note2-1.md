@@ -18,7 +18,7 @@ python的语法规则是学习python的基础
 保留字即关键字(keyword),是具有特定功能的字符串，python的保留字有
 
 ```python
-and or as Flase True 
+and or as False True 
 for while if else
 class def return 
 raise break yield
@@ -52,14 +52,18 @@ num = input("请输入加数:") # 输入的加数是字符串
 获取用户输入的值用input
 但是需要转换为整数类型
 """
-a = input('请输入数字')
+a = input('请输入数字1: ')
 a = int(a)
+
+b = input('请输入数字2: ')
+b = int(b)
 
 '''
 输入 a b的值，计算乘积
 这是一个简单的计算
 '''
 result = a * b
+print(result)
 
 # 下面将返回结果
 # 实现多行注释，
